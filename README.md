@@ -1,4 +1,24 @@
-# Different-type-app
+# Different Type app
+
+## Requirements:
+
+* Manage an initialize request from the server
+* Get a product list from the server
+
+
+Product model:
+
+* name: string
+*
+
+
+Notes:
+
+* No more reopens
+
+
+
+## ARCHIVE - ORIGINAL INSTRUCTION FROM EMBER GENERATOR
 
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
