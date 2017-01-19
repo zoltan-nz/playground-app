@@ -1,0 +1,8 @@
+<p>Items in log: {{logs.length}}</p>
+<ul>
+  {{#each logs as |log|}}
+    <li>{{log}}</li>
+  {{/each}}
+</ul>
+
+<button {{action 'rerender'}}>Rerender</button>
