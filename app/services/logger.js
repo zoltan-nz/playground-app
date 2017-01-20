@@ -11,6 +11,10 @@ export default Ember.Service.extend({
   },
 
   add(message) {
-    this.logStack.push(message);
+    this.logStack.pushObject(message);
+  },
+
+  clear() {
+    Ember.set(this, 'logStack', []);
   }
 });

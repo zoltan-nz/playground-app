@@ -1,4 +1,5 @@
 <p>Items in log: {{logs.length}}</p>
+
 <ul>
   {{#each logs as |log|}}
     <li>{{log}}</li>
@@ -6,3 +7,4 @@
 </ul>
 
 <button {{action 'rerender'}}>Rerender</button>
+<button class="clear" {{action 'clear'}}>Clear</button>
